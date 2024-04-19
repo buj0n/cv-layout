@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-body-color: #f5f5f5;
+  --background-container-color: #ffffff;
+  --primary-color: #6c0345;
+  --secondary-color: #000;
+  --font-color: #666666;
+  --bold-font-color: #222222;
+}
+
+body {
+  background-color: var(--background-body-color);
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: var(--background-container-color);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  color: var(--primary-color);
+}
+img {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+}
+
+section {
+  padding: 7px;
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+ul {
+  margin: 5px;
+  margin-left: 20px;
+}
+
+p,
+li {
+  color: var(--font-color);
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.tucny-text,
+thead {
+  font-weight: bold;
+  color: var(--bold-font-color);
+}
+
+.info-box,
+.pracovni-zkusenosti,
+.dovednosti {
+  background-color: var(--background-body-color);
+  border-radius: 7px;
+  margin: 5px;
+}
+
+.profil,
+.vzdelani,
+.osobni-dovednosti {
+  margin: 5px;
+}
+
+tbody td {
+  color: var(--font-color);
+  padding-right: 20px;
+}
